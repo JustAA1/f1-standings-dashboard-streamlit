@@ -19,3 +19,6 @@ Dependencies or prerequisites.
 
 ### Data Source
 - Data scraped from [f1.com](https://www.f1.com/).
+
+### Note:
+- This is V1. I plan for V2 to have less files and more streamlined and cleaner data.
