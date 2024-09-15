@@ -1,27 +1,27 @@
 year = 2024
 # saving time not waiting for data
-data = {'Max Verstappen': [26, 51, 51, 77, 110, 136, 161, 169, 194, 219, 237, 255, 265, 277, 295, 303], 
-        'Sergio Perez': [18, 36, 46, 64, 85, 103, 107, 107, 107, 111, 118, 118, 124, 131, 139, 143], 
-        'Carlos Sainz': [15, 15, 40, 55, 69, 83, 93, 108, 108, 116, 135, 146, 154, 162, 172, 184], 
-        'Charles Leclerc': [12, 28, 47, 59, 76, 98, 113, 138, 138, 148, 150, 150, 162, 177, 192, 217], 
-        'George Russell': [10, 18, 18, 24, 33, 37, 44, 54, 69, 81, 111, 111, 116, 116, 122, 128], 
-        'Lando Norris': [8, 12, 27, 37, 58, 83, 101, 113, 131, 150, 156, 171, 189, 199, 225, 241], 
-        'Lewis Hamilton': [6, 8, 8, 10, 19, 27, 35, 42, 55, 70, 85, 110, 125, 150, 154, 164], 
-        'Oscar Piastri': [4, 16, 28, 32, 38, 41, 53, 71, 81, 87, 112, 124, 149, 167, 179, 197], 
-        'Fernando Alonso': [2, 12, 16, 24, 31, 33, 33, 33, 41, 41, 41, 45, 45, 49, 50, 50], 
-        'Lance Stroll': [1, 1, 9, 9, 9, 9, 11, 11, 17, 17, 17, 23, 24, 24, 24, 24], 
-        'Zhou Guanyu': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
-        'Kevin Magnussen': [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 5, 5, 5, 5, 5, 6], 
-        'Daniel Ricciardo': [0, 0, 0, 0, 0, 5, 5, 5, 9, 9, 11, 11, 11, 12, 12, 12], 
-        'Yuki Tsunoda': [0, 0, 6, 7, 7, 14, 15, 19, 19, 19, 19, 20, 22, 22, 22, 22], 
-        'Alexander Albon': [0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 4, 4, 4, 4, 6], 
-        'Nico Hulkenberg': [0, 1, 3, 3, 4, 6, 6, 6, 6, 6, 14, 22, 22, 22, 22, 22], 
-        'Esteban Ocon': [0, 0, 0, 0, 0, 1, 1, 1, 2, 3, 3, 3, 3, 5, 5, 5], 
-        'Pierre Gasly': [0, 0, 0, 0, 0, 0, 0, 1, 3, 5, 6, 6, 6, 6, 8, 8], 
-        'Valtteri Bottas': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
-        'Logan Sargeant': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
-        'Oliver Bearman': [0, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6], 
-        'Franco Colapinto': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+data = {'Max Verstappen': [26, 51, 51, 77, 110, 136, 161, 169, 194, 219, 237, 255, 265, 277, 295, 303, 313], 
+'Sergio Perez': [18, 36, 46, 64, 85, 103, 107, 107, 107, 111, 118, 118, 124, 131, 139, 143, 143], 
+'Carlos Sainz': [15, 15, 40, 55, 69, 83, 93, 108, 108, 116, 135, 146, 154, 162, 172, 184, 184], 
+'Charles Leclerc': [12, 28, 47, 59, 76, 98, 113, 138, 138, 148, 150, 150, 162, 177, 192, 217, 235], 
+'George Russell': [10, 18, 18, 24, 33, 37, 44, 54, 69, 81, 111, 111, 116, 116, 122, 128, 143], 
+'Lando Norris': [8, 12, 27, 37, 58, 83, 101, 113, 131, 150, 156, 171, 189, 199, 225, 241, 254], 
+'Lewis Hamilton': [6, 8, 8, 10, 19, 27, 35, 42, 55, 70, 85, 110, 125, 150, 154, 164, 166], 
+'Oscar Piastri': [4, 16, 28, 32, 38, 41, 53, 71, 81, 87, 112, 124, 149, 167, 179, 197, 222], 
+'Fernando Alonso': [2, 12, 16, 24, 31, 33, 33, 33, 41, 41, 41, 45, 45, 49, 50, 50, 58], 
+'Lance Stroll': [1, 1, 9, 9, 9, 9, 11, 11, 17, 17, 17, 23, 24, 24, 24, 24, 24], 
+'Zhou Guanyu': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+'Kevin Magnussen': [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 5, 5, 5, 5, 5, 6, 6], 
+'Daniel Ricciardo': [0, 0, 0, 0, 0, 5, 5, 5, 9, 9, 11, 11, 11, 12, 12, 12, 12], 
+'Yuki Tsunoda': [0, 0, 6, 7, 7, 14, 15, 19, 19, 19, 19, 20, 22, 22, 22, 22, 22], 
+'Alexander Albon': [0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 4, 4, 4, 4, 6, 12], 
+'Nico Hulkenberg': [0, 1, 3, 3, 4, 6, 6, 6, 6, 6, 14, 22, 22, 22, 22, 22, 22], 
+'Esteban Ocon': [0, 0, 0, 0, 0, 1, 1, 1, 2, 3, 3, 3, 3, 5, 5, 5, 5], 
+'Pierre Gasly': [0, 0, 0, 0, 0, 0, 0, 1, 3, 5, 6, 6, 6, 6, 8, 8, 8], 
+'Valtteri Bottas': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+'Logan Sargeant': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+'Oliver Bearman': [0, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 7], 
+'Franco Colapinto': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4]}
 
 #import f1PointsData
 #data = f1PointsData.storingData
@@ -29,13 +29,14 @@ data = {'Max Verstappen': [26, 51, 51, 77, 110, 136, 161, 169, 194, 219, 237, 25
 data = dict(sorted(data.items(), key=lambda item: item[1][-1], reverse=True))
 
 # saving time not waiting for data
-tempDriverTeamData = {'Max Verstappen': 'Red Bull Racing Honda RBPT', 'Sergio Perez': 'Red Bull Racing Honda RBPT', 'Carlos Sainz': 'Ferrari', 
-                      'Charles Leclerc': 'Ferrari', 'George Russell': 'Mercedes', 'Lando Norris': 'McLaren Mercedes', 'Lewis Hamilton': 'Mercedes', 
-                      'Oscar Piastri': 'McLaren Mercedes', 'Fernando Alonso': 'Aston Martin Aramco Mercedes', 'Lance Stroll': 'Aston Martin Aramco Mercedes', 
-                      'Zhou Guanyu': 'Kick Sauber Ferrari', 'Kevin Magnussen': 'Haas Ferrari', 'Daniel Ricciardo': 'RB Honda RBPT', 
-                      'Yuki Tsunoda': 'RB Honda RBPT', 'Alexander Albon': 'Williams Mercedes', 'Nico Hulkenberg': 'Haas Ferrari', 
-                      'Esteban Ocon': 'Alpine Renault', 'Pierre Gasly': 'Alpine Renault', 'Valtteri Bottas': 'Kick Sauber Ferrari', 
-                      'Logan Sargeant': 'Williams Mercedes', 'Oliver Bearman': 'Ferrari', 'Franco Colapinto': 'Williams Mercedes'}
+tempDriverTeamData = {'Max Verstappen': 'Red Bull Racing Honda RBPT', 'Sergio Perez': 'Red Bull Racing Honda RBPT', 
+'Carlos Sainz': 'Ferrari', 'Charles Leclerc': 'Ferrari', 'George Russell': 'Mercedes', 'Lando Norris': 'McLaren Mercedes', 
+'Lewis Hamilton': 'Mercedes', 'Oscar Piastri': 'McLaren Mercedes', 'Fernando Alonso': 'Aston Martin Aramco Mercedes', 
+'Lance Stroll': 'Aston Martin Aramco Mercedes', 'Zhou Guanyu': 'Kick Sauber Ferrari', 'Kevin Magnussen': 'Haas Ferrari', 
+'Daniel Ricciardo': 'RB Honda RBPT', 'Yuki Tsunoda': 'RB Honda RBPT', 'Alexander Albon': 'Williams Mercedes', 
+'Nico Hulkenberg': 'Haas Ferrari', 'Esteban Ocon': 'Alpine Renault', 'Pierre Gasly': 'Alpine Renault', 
+'Valtteri Bottas': 'Kick Sauber Ferrari', 'Logan Sargeant': 'Williams Mercedes', 'Oliver Bearman': 'Haas Ferrari', 
+'Franco Colapinto': 'Williams Mercedes'}
 
 #tempDriverTeamData = f1PointsData.storingTeamData
 
