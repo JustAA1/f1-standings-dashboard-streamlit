@@ -29,7 +29,7 @@ def titlePage():
         """)
 
     with col2:
-        st.image("https://i.postimg.cc/3RQzm9yg/Screenshot-2024-09-01-at-13-00-13.png", caption="Dashboard Preview", use_column_width=True)
+        st.image("https://i.postimg.cc/3RQzm9yg/Screenshot-2024-09-01-at-13-00-13.png", caption="Dashboard Preview", use_container_width=True)
 
 
 # sidebar title
