@@ -37,7 +37,7 @@ st.sidebar.title("F1 Standings")
 # year selection in sidebar
 option = st.sidebar.selectbox(
     "Select year:",
-    ("2024", "2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007"),
+    ("2025", "2024", "2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007"),
     index=None,
     placeholder="Select year...",
 )
@@ -49,7 +49,9 @@ selection = st.sidebar.radio(
     disabled=(option is None)  # Disable if no year is selected
 )
 
-if option == "2024":
+if option == "2025":
+    import data2025 as f1Data
+elif option == "2024":
     import data2024 as f1Data
 elif option == "2023":
     import data2023 as f1Data
