@@ -85,6 +85,8 @@ for team in teamsWithPoints:
         delta.append(points[i+1] - points[i])
     teamsWithPoints[team].append(delta)
 
+numRaces = 24
+
 delta = {key:value[1] for key, value in teamsWithPoints.items()}
 
 driverDelta = {key:None for key in data}
