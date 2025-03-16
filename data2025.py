@@ -27,7 +27,7 @@ tempDriverTeamData = {'Max Verstappen': 'Red Bull Racing Honda RBPT', 'Liam Laws
                       'Lewis Hamilton': 'Ferrari', 'Charles Leclerc': 'Ferrari', 'George Russell': 'Mercedes', 
                       'Lando Norris': 'McLaren Mercedes', 'Andrea Kimi Antonelli': 'Mercedes', 'Oscar Piastri': 'McLaren Mercedes', 
                       'Fernando Alonso': 'Aston Martin Aramco Mercedes', 'Lance Stroll': 'Aston Martin Aramco Mercedes', 
-                      'Nico Hulkenburg': 'Kick Sauber Ferrari', 'Oliver Bearman': 'Haas Ferrari', 'Isack Hadjar': 'Racing Bulls Honda RBPT', 
+                      'Nico Hulkenberg': 'Kick Sauber Ferrari', 'Oliver Bearman': 'Haas Ferrari', 'Isack Hadjar': 'Racing Bulls Honda RBPT', 
                       'Yuki Tsunoda': 'Racing Bulls Honda RBPT', 'Alexander Albon': 'Williams Mercedes', 'Esteban Ocon': 'Haas Ferrari', 
                       'Jack Doohan': 'Alpine Renault', 'Pierre Gasly': 'Alpine Renault', 'Gabriel Bortoleto': 'Kick Sauber Ferrari', 
                       'Carlos Sainz': 'Williams Mercedes'}
