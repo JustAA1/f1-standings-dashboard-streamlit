@@ -80,7 +80,7 @@ for team in teamsWithPoints:
         delta.append(points[i+1] - points[i])
     teamsWithPoints[team].append(delta)
 
-numRaces = 1
+numRaces = 2
 
 delta = {key:value[1] for key, value in teamsWithPoints.items()}
 
