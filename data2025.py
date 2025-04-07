@@ -1,25 +1,25 @@
 year = 2025
 
-data = {'Lando Norris': [25, 44], 
-        'Max Verstappen': [18, 36], 
-        'George Russell': [15, 35], 
-        'Andrea Kimi Antonelli': [12, 22], 
-        'Alexander Albon': [10, 16], 
-        'Lance Stroll': [8, 10], 
-        'Nico Hulkenberg': [6, 6], 
-        'Charles Leclerc': [4, 8], 
-        'Oscar Piastri': [2, 34], 
-        'Lewis Hamilton': [1, 9], 
-        'Pierre Gasly': [0, 0], 
-        'Yuki Tsunoda': [0, 3], 
-        'Esteban Ocon': [0, 10], 
-        'Oliver Bearman': [0, 4], 
-        'Liam Lawson': [0, 0], 
-        'Gabriel Bortoleto': [0, 0], 
-        'Fernando Alonso': [0, 0], 
-        'Carlos Sainz': [0, 1], 
-        'Jack Doohan': [0, 0], 
-        'Isack Hadjar': [0, 0]}
+data = {'Lando Norris': [25, 44, 62], 
+        'Max Verstappen': [18, 36, 61], 
+        'George Russell': [15, 35, 45], 
+        'Andrea Kimi Antonelli': [12, 22, 30], 
+        'Alexander Albon': [10, 16, 18], 
+        'Lance Stroll': [8, 10, 10], 
+        'Nico Hulkenberg': [6, 6, 6], 
+        'Charles Leclerc': [4, 8, 20], 
+        'Oscar Piastri': [2, 34, 49], 
+        'Lewis Hamilton': [1, 9, 15], 
+        'Pierre Gasly': [0, 0, 0], 
+        'Yuki Tsunoda': [0, 3, 3], 
+        'Esteban Ocon': [0, 10, 10], 
+        'Oliver Bearman': [0, 4, 5], 
+        'Liam Lawson': [0, 0, 0], 
+        'Gabriel Bortoleto': [0, 0, 0], 
+        'Fernando Alonso': [0, 0, 0], 
+        'Carlos Sainz': [0, 1, 1], 
+        'Jack Doohan': [0, 0, 0], 
+        'Isack Hadjar': [0, 0, 4]}
 
 data = dict(sorted(data.items(), key=lambda item: item[1][-1], reverse=True))
 
@@ -80,7 +80,7 @@ for team in teamsWithPoints:
         delta.append(points[i+1] - points[i])
     teamsWithPoints[team].append(delta)
 
-numRaces = 2
+numRaces = 3
 
 delta = {key:value[1] for key, value in teamsWithPoints.items()}
 
