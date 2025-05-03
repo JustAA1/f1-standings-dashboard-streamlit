@@ -1,25 +1,25 @@
 year = 2025
 
-data = {'Lando Norris': [25, 44, 62, 77, 89], 
-        'Max Verstappen': [18, 36, 61, 69, 87], 
-        'George Russell': [15, 35, 45, 63, 73], 
-        'Andrea Kimi Antonelli': [12, 22, 30, 30, 38], 
-        'Alexander Albon': [10, 16, 18, 18, 20], 
-        'Lance Stroll': [8, 10, 10, 10, 10], 
-        'Nico Hulkenberg': [6, 6, 6, 6, 6], 
-        'Charles Leclerc': [4, 8, 20, 32, 47], 
-        'Oscar Piastri': [2, 34, 49, 74, 99], 
-        'Lewis Hamilton': [1, 9, 15, 25, 31], 
-        'Pierre Gasly': [0, 0, 0, 6, 6], 
-        'Yuki Tsunoda': [0, 3, 3, 5, 5], 
-        'Esteban Ocon': [0, 10, 10, 14, 14], 
-        'Oliver Bearman': [0, 4, 5, 6, 6], 
-        'Liam Lawson': [0, 0, 0, 0, 0], 
-        'Gabriel Bortoleto': [0, 0, 0, 0, 0], 
-        'Fernando Alonso': [0, 0, 0, 0, 0], 
-        'Carlos Sainz': [0, 1, 1, 1, 5], 
-        'Jack Doohan': [0, 0, 0, 0, 0], 
-        'Isack Hadjar': [0, 0, 4, 4, 5]}
+data = {'Lando Norris': [25, 44, 62, 77, 89, 97], 
+        'Max Verstappen': [18, 36, 61, 69, 87, 87], 
+        'George Russell': [15, 35, 45, 63, 73, 77], 
+        'Andrea Kimi Antonelli': [12, 22, 30, 30, 38, 38], 
+        'Alexander Albon': [10, 16, 18, 18, 20, 25], 
+        'Lance Stroll': [8, 10, 10, 10, 10, 13], 
+        'Nico Hulkenberg': [6, 6, 6, 6, 6, 6], 
+        'Charles Leclerc': [4, 8, 20, 32, 47, 47], 
+        'Oscar Piastri': [2, 34, 49, 74, 99, 106], 
+        'Lewis Hamilton': [1, 9, 15, 25, 31, 37], 
+        'Pierre Gasly': [0, 0, 0, 6, 6, 6], 
+        'Yuki Tsunoda': [0, 3, 3, 5, 5, 5], 
+        'Esteban Ocon': [0, 10, 10, 14, 14, 14], 
+        'Oliver Bearman': [0, 4, 5, 6, 6, 7], 
+        'Liam Lawson': [0, 0, 0, 0, 0, 2], 
+        'Gabriel Bortoleto': [0, 0, 0, 0, 0, 0], 
+        'Fernando Alonso': [0, 0, 0, 0, 0, 0], 
+        'Carlos Sainz': [0, 1, 1, 1, 5, 5], 
+        'Jack Doohan': [0, 0, 0, 0, 0, 0], 
+        'Isack Hadjar': [0, 0, 4, 4, 5, 5]}
 
 data = dict(sorted(data.items(), key=lambda item: item[1][-1], reverse=True))
 
@@ -80,7 +80,7 @@ for team in teamsWithPoints:
         delta.append(points[i+1] - points[i])
     teamsWithPoints[team].append(delta)
 
-numRaces = 5
+numRaces = 6
 
 delta = {key:value[1] for key, value in teamsWithPoints.items()}
 
