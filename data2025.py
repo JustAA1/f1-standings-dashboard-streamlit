@@ -1,26 +1,26 @@
 year = 2025
 
-data = {'Lando Norris': [25, 44, 62, 77, 89, 115, 133], 
-        'Max Verstappen': [18, 36, 61, 69, 87, 99, 124], 
-        'George Russell': [15, 35, 45, 63, 73, 93, 99], 
-        'Andrea Kimi Antonelli': [12, 22, 30, 30, 38, 48, 48], 
-        'Alexander Albon': [10, 16, 18, 18, 20, 30, 40], 
-        'Lance Stroll': [8, 10, 10, 10, 10, 14, 14], 
-        'Nico Hulkenberg': [6, 6, 6, 6, 6, 6, 6], 
-        'Charles Leclerc': [4, 8, 20, 32, 47, 53, 61], 
-        'Oscar Piastri': [2, 34, 49, 74, 99, 131, 146], 
-        'Lewis Hamilton': [1, 9, 15, 25, 31, 41, 53], 
-        'Pierre Gasly': [0, 0, 0, 6, 6, 7, 7], 
-        'Yuki Tsunoda': [0, 3, 3, 5, 5, 9, 10], 
-        'Esteban Ocon': [0, 10, 10, 14, 14, 14, 14], 
-        'Oliver Bearman': [0, 4, 5, 6, 6, 6, 6], 
-        'Liam Lawson': [0, 0, 0, 0, 0, 0, 0], 
-        'Gabriel Bortoleto': [0, 0, 0, 0, 0, 0, 0], 
-        'Fernando Alonso': [0, 0, 0, 0, 0, 0, 0], 
-        'Carlos Sainz': [0, 1, 1, 1, 5, 5, 9], 
-        'Jack Doohan': [0, 0, 0, 0, 0, 0, 0], 
-        'Isack Hadjar': [0, 0, 4, 4, 5, 5, 7],
-        'Franco Colapinto': [0, 0, 0, 0, 0, 0, 0]}
+data = {'Lando Norris': [25, 44, 62, 77, 89, 115, 133, 158], 
+        'Max Verstappen': [18, 36, 61, 69, 87, 99, 124, 136], 
+        'George Russell': [15, 35, 45, 63, 73, 93, 99, 99], 
+        'Andrea Kimi Antonelli': [12, 22, 30, 30, 38, 48, 48, 48], 
+        'Alexander Albon': [10, 16, 18, 18, 20, 30, 40, 42], 
+        'Lance Stroll': [8, 10, 10, 10, 10, 14, 14, 14], 
+        'Nico Hulkenberg': [6, 6, 6, 6, 6, 6, 6, 6], 
+        'Charles Leclerc': [4, 8, 20, 32, 47, 53, 61, 79], 
+        'Oscar Piastri': [2, 34, 49, 74, 99, 131, 146, 161], 
+        'Lewis Hamilton': [1, 9, 15, 25, 31, 41, 53, 63], 
+        'Pierre Gasly': [0, 0, 0, 6, 6, 7, 7, 7], 
+        'Yuki Tsunoda': [0, 3, 3, 5, 5, 9, 10, 10], 
+        'Esteban Ocon': [0, 10, 10, 14, 14, 14, 14, 20], 
+        'Oliver Bearman': [0, 4, 5, 6, 6, 6, 6, 6], 
+        'Liam Lawson': [0, 0, 0, 0, 0, 0, 0, 4], 
+        'Gabriel Bortoleto': [0, 0, 0, 0, 0, 0, 0, 0], 
+        'Fernando Alonso': [0, 0, 0, 0, 0, 0, 0, 0], 
+        'Carlos Sainz': [0, 1, 1, 1, 5, 5, 9, 10], 
+        'Jack Doohan': [0, 0, 0, 0, 0, 0, 0, 0], 
+        'Isack Hadjar': [0, 0, 4, 4, 5, 5, 7, 15],
+        'Franco Colapinto': [0, 0, 0, 0, 0, 0, 0, 0]}
 
 data = dict(sorted(data.items(), key=lambda item: item[1][-1], reverse=True))
 
@@ -81,7 +81,7 @@ for team in teamsWithPoints:
         delta.append(points[i+1] - points[i])
     teamsWithPoints[team].append(delta)
 
-numRaces = 7
+numRaces = 8
 
 delta = {key:value[1] for key, value in teamsWithPoints.items()}
 
